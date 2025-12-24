@@ -4,8 +4,8 @@ Install it with   `npm i @andrew3314/react-pdf-preview`
 Then, you can use it in your react component as follows:
 ```
 import './App.css'
-import book from '../public/qm.pdf'
-import {usePdfDocument, PageList} from '../lib/main'
+import book from '../public/qm.pdf' //generic file url
+import {usePdfDocument, PageList} from '@andrew3314/react-pdf-preview'
 
 function App() {
   const loadPdfDocument = usePdfDocument(book)
